@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ir.sweetsoft.sweetradio.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+<VideoView
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:id="@+id/videoplayer"/>
+    <SurfaceView
+        android:id="@+id/surface"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@drawable/radio2"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiotitle"
+            android:textAlignment="center"
+            android:text="به نرم افزار رادیو آنلاین Sweet خوش آمدید"
+            android:layout_alignParentTop="true"
+            android:gravity="center" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/radio2"
+            android:id="@+id/radioimage"
+            android:layout_below="@id/radiotitle"/>
+
+        <TextView
+            android:id="@+id/footertext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:layout_below="@id/radioimage"
+            android:text="By Hadi Nahavandi"
+            android:textAlignment="center" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

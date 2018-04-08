@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Radio Stockholmian" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Radio Donya" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Radio 6o8"/>
+        <item
+            android:id="@+id/nav_niaz"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Radio Niaz"/>
+        <item
+            android:id="@+id/nav_kralpop"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Kral Pop" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Radio Javan"/>
+        <item
+            android:id="@+id/nav_youngturks"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Young Turks" />
+        <item
+            android:id="@+id/nav_cheddar"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cheddar" />
+        <item
+            android:id="@+id/nav_twit"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="TWiT Live" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Exit"
+            android:visible="true"/>
+
+    </group>
+
+
+
+</menu>
