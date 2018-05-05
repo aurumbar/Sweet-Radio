@@ -315,11 +315,44 @@ public class MainActivity extends AppCompatActivity implements IVLCVout.Callback
         }else if (id == R.id.nav_cheddar) {
             play("http://cheddar.streamguys1.com/live-aac","Cheddar",false);
 
-        }else if (id == R.id.nav_kralpop) {
+        }
+        else if (id == R.id.nav_kralpop) {
             play("http://kralpopsc.radyotvonline.com/","Kral Pop",true);
-
-        }else if (id == R.id.nav_twit) {
+        }
+        else if (id == R.id.nav_kralfm) {
+            play("http://kralwmp.radyotvonline.com/;","Kral FM",true);
+        }else if (id == R.id.nav_kralturk) {
+            play("http://canliradyoyayini.com:3434/;","Kral Türk FM",false);
+        }
+        else if (id == R.id.nav_showradio) {
+            play("http://46.20.3.229/","Show Radio",false);
+        }else if (id == R.id.nav_slowturk) {
+            play("http://radyo.dogannet.tv/slowturk","Slow Turk",false);
+        }else if (id == R.id.nav_powerturk) {
+            play("http://powerturktaptaze.listenpowerapp.com/powerturktaptaze/mpeg/icecast.audio","Power Turk TapTaze",false);
+        }
+        else if (id == R.id.nav_superfm) {
+            play("http://18463.live.streamtheworld.com/SUPER_FM_SC","Süper FM",false);
+        }else if (id == R.id.nav_dejavu) {
+            play("http://radyodejavu.canliyayinda.com:8054","Radio Dejavu",false);
+        }else if (id == R.id.nav_palfm) {
+            play("http://46.20.13.51:1230/","Pal FM",true);
+        }
+        else if (id == R.id.nav_twit) {
             play("http://twit.am/listen", "TWiT Live",false);
+        }else if (id == R.id.nav_wunc) {
+            play("http://mediaserver.wuncfm.unc.edu:8000/wunc128", "North Carolina Public Radio",false);
+        }else if (id == R.id.nav_wnyc) {
+            play("http://fm939.wnyc.org/wnycfm-tunein", "WNYC-FM",false);
+        }else if (id == R.id.nav_wamu) {
+            play("http://wamu-1.streamguys.com/wamu-1", "WAMU:American University Radio",false);
+        }else if (id == R.id.nav_classic) {
+            play("http://media-ice.musicradio.com/ClassicFMMP3", "Classic FM",false);
+        }
+        else if (id == R.id.nav_qmusic) {
+            play("http://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_live_96.mp3", "QMusic",false);
+        }else if (id == R.id.nav_nyclive) {
+            play("https://streaming.radiostreamlive.com/radionylive_devices", "Radio New York Live",false);
         }
 //        else if (id == R.id.nav_twit) {
 //            play("http://twit.am/listen","TWiT Live");

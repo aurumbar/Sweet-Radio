@@ -19,15 +19,77 @@
         <item
             android:id="@+id/nav_niaz"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Radio Niaz"/>
+            android:title="Radio Niaz"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Radio Javan"
+            android:visible="false"/>
         <item
             android:id="@+id/nav_kralpop"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Kral Pop" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_kralfm"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Radio Javan"/>
+            android:title="Kral FM" />
+        <item
+            android:id="@+id/nav_kralturk"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Kral Türk" />
+        <item
+            android:id="@+id/nav_showradio"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Show Radio" />
+        <item
+            android:id="@+id/nav_slowturk"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slow Türk" />
+        <item
+            android:id="@+id/nav_powerturk"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Power Türk" />
+        <item
+            android:id="@+id/nav_superfm"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Süper FM" />
+        <item
+            android:id="@+id/nav_dejavu"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Radio Dejavu" />
+        <item
+            android:id="@+id/nav_palfm"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Pal FM" />
+
+        <item
+            android:id="@+id/nav_classic"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Classic FM"/>
+        <item
+            android:id="@+id/nav_qmusic"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="QMusic"/>
+        <item
+            android:id="@+id/nav_nyclive"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="NY Live"/>
+        <item
+            android:id="@+id/nav_wunc"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="WUNC"/>
+        <item
+            android:id="@+id/nav_wnyc"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="WNYC-FM"/>
+
+        <item
+            android:id="@+id/nav_wamu"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="WAMU"/>
+
         <item
             android:id="@+id/nav_youngturks"
             android:icon="@drawable/ic_menu_slideshow"
