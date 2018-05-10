@@ -4,47 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#3fa2d9"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="ir.sweetsoft.sweetradio.MainActivity"
     tools:showIn="@layout/app_bar_main">
-<VideoView
-    android:layout_width="0dp"
-    android:layout_height="0dp"
-    android:id="@+id/videoplayer"/>
+
+    <VideoView
+        android:id="@+id/videoplayer"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
     <SurfaceView
         android:id="@+id/surface"
         android:layout_width="1dp"
         android:layout_height="1dp"
         android:layout_gravity="center"
-        android:background="@drawable/radio2"/>
+        android:background="@drawable/radio2" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/radiotitle"
-            android:textAlignment="center"
-            android:text="به نرم افزار رادیو آنلاین Sweet خوش آمدید"
-            android:layout_alignParentTop="true"
-            android:gravity="center" />
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/radio2"
-            android:id="@+id/radioimage"
-            android:layout_below="@id/radiotitle"/>
 
+
+        <ImageView
+            android:id="@+id/radioimage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg7" />
+
+        <TextView
+            android:id="@+id/radiotitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="به نرم افزار رادیو آنلاین Sweet خوش آمدید"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#fff" />
         <TextView
             android:id="@+id/footertext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
             android:layout_marginRight="20dp"
+            android:layout_alignParentBottom="true"
             android:gravity="center"
-            android:layout_below="@id/radioimage"
             android:text="By Hadi Nahavandi"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textColor="#fff"/>
 
     </RelativeLayout>
 
